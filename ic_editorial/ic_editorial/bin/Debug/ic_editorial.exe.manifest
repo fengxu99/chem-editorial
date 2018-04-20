@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
-  <asmv1:assemblyIdentity version="2.0.0.1" name="ic_editorial.exe" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity version="2.0.0.2" name="ic_editorial.exe" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="ic_editorial" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
@@ -42,6 +42,36 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MDL.Cheshire" version="4.2.2.42" publicKeyToken="24416AA791A97180" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MDL.Draw.Clipboard" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MDL.Draw.Foundation" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MDL.Draw.Renderer" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="MDL.Draw.TextServicesWrapper" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="OpenEye.oedrawaddin" version="1.20.2000.1" publicKeyToken="80B4332F29A75D1E" language="neutral" processorArchitecture="x86" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="vjscor" version="2.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="x86" />
     </dependentAssembly>
   </dependency>
@@ -58,19 +88,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>vn9lJ8Knj37Ravkh723vcSYsvck=</dsig:DigestValue>
+        <dsig:DigestValue>cydblsg9sF8KPka32QXQhjmWnfQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDL.Cheshire.dll" size="81920">
-      <assemblyIdentity name="MDL.Cheshire" version="4.2.2.42" publicKeyToken="24416AA791A97180" language="neutral" />
+      <assemblyIdentity name="MDL.Cheshire" version="4.2.1.3" publicKeyToken="24416AA791A97180" language="neutral" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>OFJYPuLIXOo3ffdZg9RqZAFOlac=</dsig:DigestValue>
+        <dsig:DigestValue>J4BaXD88wIpwfA9SsYwud4aW1YA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -88,73 +118,73 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDL.Draw.Clipboard.dll" size="24576">
-      <assemblyIdentity name="MDL.Draw.Clipboard" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="MDL.Draw.Clipboard" version="3.2.300.35" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ba/Ezw14oLfLbpLDybbuOS0CtGU=</dsig:DigestValue>
+        <dsig:DigestValue>72QDhgQHV5Ldi3NVskDLPEKWWfU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDL.Draw.Editor.dll" size="2281472">
-      <assemblyIdentity name="MDL.Draw.Editor" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDL.Draw.Editor.dll" size="2265088">
+      <assemblyIdentity name="MDL.Draw.Editor" version="3.2.300.35" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>GOU2wLQjqEr0RWB9Q3pQEVVS3XU=</dsig:DigestValue>
+        <dsig:DigestValue>Iq4xf+DVDRZKkTYtOVZLMY5BGCU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDL.Draw.Foundation.dll" size="1667072">
-      <assemblyIdentity name="MDL.Draw.Foundation" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDL.Draw.Foundation.dll" size="1630208">
+      <assemblyIdentity name="MDL.Draw.Foundation" version="3.2.300.35" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>HNvPs4D/1yWvNzmfiMgqaDp5ZI8=</dsig:DigestValue>
+        <dsig:DigestValue>PF6c8ai6oaln3RBLrtPfy+XVLOw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDL.Draw.Renderer.dll" size="561152">
-      <assemblyIdentity name="MDL.Draw.Renderer" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="MDL.Draw.Renderer" version="3.2.300.35" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JKq5hfKDN69Thi9AIrD34OPAxvU=</dsig:DigestValue>
+        <dsig:DigestValue>KcPoXjckAGQ9ySEbOXXo1/XdIdI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MDL.Draw.TextServicesWrapper.dll" size="241664">
-      <assemblyIdentity name="MDL.Draw.TextServicesWrapper" version="3.3.0.95" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
+      <assemblyIdentity name="MDL.Draw.TextServicesWrapper" version="3.2.300.35" publicKeyToken="E922E3FD683B3777" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>g0tDhc5ol3pFGCv9c3ZXoDQKwm4=</dsig:DigestValue>
+        <dsig:DigestValue>gBlgp/9z8hWl62nAsLGKV39aBnE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenEye.oedrawaddin.dll" size="24576">
-      <assemblyIdentity name="OpenEye.oedrawaddin" version="1.20.2000.1" publicKeyToken="80B4332F29A75D1E" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="OpenEye.oedrawaddin.dll" size="12800">
+      <assemblyIdentity name="OpenEye.oedrawaddin" version="0.90.1000.1" publicKeyToken="80B4332F29A75D1E" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>jQ+1PFNrm+f9iNs+v7kOSZk4h8w=</dsig:DigestValue>
+        <dsig:DigestValue>rKQnt4wTQY9j0Mp/2IVJARdNGUc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
