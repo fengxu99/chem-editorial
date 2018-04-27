@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="layoutExtraction">
+</Property><Property Name="Solution File" Value="C:\Projects\layout\layoutExtraction\layoutExtraction.sln">
+</Property><Property Name="User Options File" Value="C:\Projects\layout\layoutExtraction\layoutExtraction.suo">
+</Property><Property Name="Date" Value="Friday, July 10, 2009">
+</Property><Property Name="Time" Value="13:13 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="layoutExtraction.sln" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction.sln">
+</Event><Event ErrorLevel="0" Project="" Source="layoutExtraction.suo" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction.suo">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\layoutExtraction.csproj" Description="Project file successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\layoutExtraction.csproj">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\layoutExtraction.csproj.user" Description="Project user file successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\layoutExtraction.csproj.user">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Form1.cs" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Form1.cs">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Form1.Designer.cs" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Program.cs" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Program.cs">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\layoutExtraction_TemporaryKey.pfx" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\layoutExtraction_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Properties\Settings.settings" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Form1.resx" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Form1.resx">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\Properties\Resources.resx" Description="File successfully backed up as C:\Projects\layout\layoutExtraction\Backup\layoutExtraction\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\layoutExtraction.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="layoutExtraction" Source="layoutExtraction\layoutExtraction.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="layoutExtraction.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="layoutExtraction.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="layoutExtraction" Source="layoutExtraction\layoutExtraction.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
